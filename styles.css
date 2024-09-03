@@ -1,0 +1,63 @@
+body {
+    color: rgb(103, 32, 78, 1);
+    background: black;
+    font-family: "Raleway", sans-serif;
+
+}
+
+header {
+    border-bottom: solid 2px rgb(103, 32, 78, 1);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(146, 90, 127);
+}
+
+.chamada {
+    background: rgb(146, 90, 127);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categorias-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid pink;
+}
+
+.categoria h2 {
+    color:rgb(146, 90, 127);
+
+}
